@@ -52,3 +52,5 @@ $ yarn no-storage
 
  Just testing
 ```
+
+![TestCafé Console Error](./testcafe-error.png)
