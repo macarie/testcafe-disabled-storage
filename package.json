@@ -1,0 +1,19 @@
+{
+  "name": "testcafe-disabled-storage",
+  "version": "1.0.0",
+  "description": "Just a test",
+  "main": "index.js",
+  "repository": "https://github.com/macarie/testcafe-disabled-storage.git",
+  "author": "Raul Macarie <raul@macarie.me>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node server.js",
+    "no-storage": "testcafe 'chrome --disable-local-storage' test.js",
+    "with-storage": "testcafe 'chrome' test.js"
+  },
+  "dependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.14.1",
+    "testcafe": "^1.8.0"
+  }
+}
